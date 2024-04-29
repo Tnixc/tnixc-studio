@@ -1,7 +1,14 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/Layout.astro";
+import Landing from "../components/Landing.astro";
 ---
+
 <Layout title="some">
-  <main class="h-screen bg-gray-1">
+  <main class="bg-gray-2 h-[100dvh] p-4">
+    <div
+      class="h-full max-h-full overflow-scroll border-3 border-gray-5 bg-gray-1"
+    >
+      <Landing />
+    </div>
   </main>
 </Layout>

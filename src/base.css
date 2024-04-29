@@ -2,12 +2,11 @@
 
 @theme {
   --font-family-stardom: "Stardom", serif;
-  --font-family-mono: "Mincho Regular", serif;
-  --font-family-mono-bold: "Mincho Bold", serif;
   --font-family-serif: "Gambetta", serif;
+
   --color-gray-1: rgb(242, 240, 229);
-  --color-gray-2: rgb(184, 181, 185);
-  --color-gray-3: rgb(134, 129, 136);
+  --color-gray-2: rgb(229, 226, 204);
+  --color-gray-3: rgb(212, 206, 170);
   --color-gray-4: rgb(100, 99, 101);
   --color-gray-5: rgb(69, 68, 79);
   --color-gray-6: rgb(33, 33, 35);
@@ -29,36 +28,26 @@
   --color-magenta: rgb(207, 138, 203);
 }
 
+body {
+  font-family: var(--font-family-serif);
+  color: var(--color-gray-5);
+}
+
 @font-face {
   font-family: "Stardom";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/public/fonts/Stardom-Regular.woff2") format("woff2");
+  src: url("/fonts/Stardom-Regular.woff2") format("woff2");
 }
 
-@font-face {
-  font-family: "Mincho Regular";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/public/fonts/BIZUDMincho-Regular.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Mincho Bold";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("/public/fonts/BIZUDMincho-Bold.woff2") format("woff2");
-}
 
 @font-face {
   font-family: "Gambetta";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("/public/fonts/Gambetta-Variable.woff2") format("woff2");
+  src: url("/fonts/Gambetta-Variable.woff2") format("woff2");
 }
 
 @font-face {
@@ -66,5 +55,5 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url("/public/fonts/Gambetta-Variable-Italic.woff2") format("woff2");
+  src: url("/fonts/Gambetta-VariableItalic.woff2") format("woff2");
 }

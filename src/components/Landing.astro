@@ -1,0 +1,23 @@
+<section class="py-40 relative p-4">
+  <div class="relative z-20">
+    <h1 class="text-lg text-gray-4">welcome to</h1>
+    <h2 class="text-6xl italic">Tnixc's studio</h2>
+  </div>
+</section>
+<style>
+  section::before {
+    content: "";
+    position: absolute;
+    inset: 2rem;
+    background-position: center;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cg fill='%23D4CEAA' fill-opacity='0.5'%3E%3Cpolygon fill-rule='evenodd' points='8 4 12 6 8 8 6 12 4 8 0 6 4 4 6 0 8 4'/%3E%3C/g%3E%3C/svg%3E");
+    z-index: 5;
+  }
+  section::after {
+    content: "";
+    position: absolute;
+    inset: 2rem;
+    background: linear-gradient(115deg, transparent, var(--color-gray-1));
+    z-index: 10;
+  }
+</style>
