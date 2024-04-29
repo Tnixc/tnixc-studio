@@ -7,20 +7,20 @@
   --color-gray-1: rgb(242, 240, 229);
   --color-gray-2: rgb(229, 226, 204);
   --color-gray-3: rgb(212, 206, 170);
-  --color-gray-4: rgb(100, 99, 101);
+  --color-gray-4: rgba(159, 158, 157);
   --color-gray-5: rgb(69, 68, 79);
   --color-gray-6: rgb(33, 33, 35);
   --color-blue: rgb(75, 128, 202);
   --color-sapphire: rgb(104, 194, 211);
-  --color-teal: rgb(162, 220, 199);
   --color-yellow: rgb(237, 225, 158);
+  --color-teal: rgb(162, 220, 199);
   --color-orange: rgb(211, 160, 104);
   --color-red: rgb(180, 82, 82);
-  --color-earth-0: rgb(229, 206, 180);
-  --color-earth-1: rgb(167, 123, 91);
-  --color-green-0: rgb(194, 211, 104);
-  --color-green-1: rgb(138, 176, 96);
-  --color-green-2: rgb(86, 123, 121);
+  --color-earth-1: rgb(229, 206, 180);
+  --color-earth-2: rgb(167, 123, 91);
+  --color-green-1: rgb(194, 211, 104);
+  --color-green-2: rgb(138, 176, 96);
+  --color-green-3: rgb(86, 123, 121);
   --color-olive-1: rgb(178, 180, 126);
   --color-olive-2: rgb(123, 114, 67);
   --color-olive-3: rgb(78, 88, 74);
@@ -31,6 +31,11 @@
 body {
   font-family: var(--font-family-serif);
   color: var(--color-gray-5);
+}
+
+::selection {
+  background: var(--color-teal);
+  color: var(--color-gray-6);
 }
 
 @font-face {

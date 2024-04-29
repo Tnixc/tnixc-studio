@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import Nav from "../components/Nav.astro";
 import Landing from "../components/Landing.astro";
 ---
 
@@ -8,6 +9,9 @@ import Landing from "../components/Landing.astro";
     <div
       class="h-full max-h-full overflow-scroll border-3 border-gray-5 bg-gray-1"
     >
+      <div class="flex justify-end">
+        <Nav />
+      </div>
       <Landing />
     </div>
   </main>
