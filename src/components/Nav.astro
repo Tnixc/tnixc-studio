@@ -1,3 +1,23 @@
-<nav class="border-b-2 border-l-2 flex flex-wrap p-3 text-lg bg-yellow">
-  <a>something</a>
+<nav
+  class="border-b-2 border-l-2 flex flex-wrap text-lg bg-yellow shadow-inner"
+>
+  <a class="p-3 px-8 bg-pink" href="#featured">Featured work</a>
+  <a class="p-3 px-8 bg-orange" href="#about">About</a>
+  <a class="p-3 px-8 bg-teal" href="#pricing">Pricing</a>
+  <a class="p-3 px-8 bg-green-1" href="https://cal.com/tnixc/30min"
+    >book a call</a
+  >
 </nav>
+
+<style>
+  a {
+    transition: all 100ms ease-in-out;
+  }
+
+  a:hover {
+    translate: 0 0.5rem;
+    box-shadow:
+      inset 0 0 0 0.15rem #00000033,
+      0 0.5rem 0 var(--color-gray-4);
+  }
+</style>
