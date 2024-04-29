@@ -1,5 +1,10 @@
 @import "tailwindcss";
+
 @theme {
+  --font-family-stardom: "Stardom", serif;
+  --font-family-mono: "Mincho Regular", serif;
+  --font-family-mono-bold: "Mincho Bold", serif;
+  --font-family-serif: "Gambetta", serif;
   --color-gray-1: rgb(242, 240, 229);
   --color-gray-2: rgb(184, 181, 185);
   --color-gray-3: rgb(134, 129, 136);
@@ -22,4 +27,44 @@
   --color-olive-3: rgb(78, 88, 74);
   --color-pink: rgb(237, 200, 196);
   --color-magenta: rgb(207, 138, 203);
+}
+
+@font-face {
+  font-family: "Stardom";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/public/fonts/Stardom-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Mincho Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/public/fonts/BIZUDMincho-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Mincho Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/public/fonts/BIZUDMincho-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Gambetta";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/public/fonts/Gambetta-Variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Gambetta";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/public/fonts/Gambetta-Variable-Italic.woff2") format("woff2");
 }
