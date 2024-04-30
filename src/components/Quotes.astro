@@ -1,0 +1,51 @@
+---
+import Star from "./Star.astro";
+---
+
+<div class="p-8 flex flex-wrap justify-between">
+  <h1 class="text-3xl p-8">Don't take just from us.</h1>
+  <div class="flex gap-4">
+    <div class="p-5 bg-earth-1 w-fit border-2 border-olive-3/50 h-fit">
+      <p class="text-gray-6 flex items-center gap-1">
+        <img
+          class="rounded-full inline mr-1"
+          src="https://avatars.githubusercontent.com/u/71222764?s=64&v=4"
+          width="32"
+          height="32"
+          alt="@isabelroses"
+          class="rounded-full inline"
+        />
+        Isabelroses, <span class="text-gray-5/70"
+          >catppuccin userstyle staff</span
+        >
+      </p>
+      <div class="p-2 text-xl italic">
+        <p>"they always look soooo good"</p>
+      </div>
+    </div>
+    <div>
+      <div class="flex p-2 text-orange">
+        <Star />
+        <Star />
+        <Star />
+        <Star />
+        <Star />
+      </div>
+      <div class="p-5 bg-olive-1/50 w-fit border-2 border-olive-3/50">
+        <p class="text-gray-6 flex items-center gap-1">
+          <img
+            src="https://avatars.githubusercontent.com/u/99221043?s=64&v=4"
+            alt="@nullishamy"
+            height="32"
+            width="32"
+            class="rounded-full inline"
+          />
+          Amy, <span class="text-gray-5/70">professional hobbyist</span>
+        </p>
+        <div class="p-2 text-xl italic">
+          <p>"have you considered doing frontend profesionally"</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

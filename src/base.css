@@ -42,6 +42,10 @@ body {
   color: var(--color-gray-6);
 }
 
+:focus-visible {
+  outline: 4px solid var(--color-blue);
+}
+
 @font-face {
   font-family: "Stardom";
   font-style: normal;

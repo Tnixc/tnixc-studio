@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import Nav from "../components/Nav.astro";
 import Landing from "../components/Landing.astro";
+import Quotes from "../components/Quotes.astro";
 ---
 
 <Layout title="some">
@@ -9,11 +10,12 @@ import Landing from "../components/Landing.astro";
     <div
       class="h-full max-h-full overflow-scroll border-3 border-gray-5 bg-gray-1"
     >
-      <div class="flex justify-between" style="">
-        <div class="flex items-center px-8">design.tnixc.space</div>
+      <div class="flex justify-between md:flex-row flex-col">
+        <div class="flex items-center px-8 py-3">design.tnixc.space</div>
         <Nav />
       </div>
       <Landing />
+      <Quotes />
     </div>
   </main>
 </Layout>
